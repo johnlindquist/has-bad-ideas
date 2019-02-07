@@ -1,0 +1,17 @@
+{
+  "name": "@johnlindquist/has-bad-ideas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "parcel --target=node --bundle-node-modules src/index.js",
+    "prepublish": "parcel build --target node --bundle-node-modules src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "rxjs": "^6.0.0"
+  }
+}
